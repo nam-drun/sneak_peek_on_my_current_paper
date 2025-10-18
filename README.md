@@ -5,11 +5,28 @@ Yes, I do all these in solo research. Still, I'm grateful to get feedbacks from 
 
 
 #### Then I talk about Stochastic Interpolant
-To keep it digestible to beginner, I spend Background section to cover something that we see in everyday commercial life like histogram plot and density plot all the way to Stochastic Interpolant
-
+To keep it digestible to beginner, I spend Background section to cover something that we see in everyday commercial life like histogram plot and density plot all the way to Stochastic Interpolant <br>
 <img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/20251018_094648.jpg" width="400" height="400">
 
 
-#### My experiment goals are:
-(i) Create a toy example data distribution
-<img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/20251018_094648.jpg" width="400" height="400">
+#### My experiment procedure is:
+(i) Create a toy data distribution by manually parameterising Mixture-of-Gaussian since it has a universal density approximation property like deep neural network <br>
+<img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/toy-DataDistribution_unsup-guidance.png" width="400" height="400">
+
+Note, all models in my paper are forced to work with only 1000 training samples and only allowed to use 2 blocks-MLP with SwigLU activation function as backbone. **The emphasis is see how far can loss function and optimisation algorithm and sampling algorithm and guidance together can push the model's generative performance** <br>
+<img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/unsup-guidance_what-DNN-sees.png" width="400" height="400">
+
+(ii) Then make an arbitrary generative model (i.e. Stochastic Interpolant, Flow, Diffusion, VAE) approximate this toy data distribution <br>
+<img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/unsup-cfg_approxDataDistribution.png" width="400" height="400">
+
+(iii) Then also plot training loss and probabilistic evaluation like FID to showcase that they are **unreliable indicator**. Here's a thought experiment: <br>
+This is from Diffusion: <br>
+<img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/denoisingMatchingLoss_for_2trainings.png" width="400" height="400">
+
+This is from hVAE + VampPrior: <br>
+<img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/elboLoss_for_2_trainings.png" width="400" height="400">
+
+Which one do you think approximate data distribution better? <br>
+
+...<br>
+After making your guess, see the answer in VAEvsDiffusion folder
