@@ -7,4 +7,4 @@ Yes, I do all these in solo research. Still, I'm grateful to get feedbacks from 
 #### Then I talk about Stochastic Interpolant
 To keep it digestible to beginner, I spend Background section to cover something that we see in everyday commercial life like histogram plot and density plot all the way to Stochastic Interpolant.
 
-[!image]
+[!image](20251018_094648.jpg)
