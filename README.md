@@ -5,7 +5,7 @@ Yes, I do all these in solo research. Still, I'm grateful to get feedbacks from 
 
 
 #### Then I talk about Stochastic Interpolant
-To keep it digestible to beginner, I spend Background section to cover something that we see in everyday commercial life like histogram plot and density plot all the way to Stochastic Interpolant <br>
+To keep it digestible to beginner, I spend Background section to cover something that we see in everyday commercial life like histogram plot and density plot all the way to Stochastic Interpolant. Then to make a point that Stochastic Interpolant enables trivial integrating an innovation from other generative models. I pick a good intuition that have been consistently attempted in VAE and Diffusion but failed to capitalise, then try it on Stochastic Interpolant and use this framework to identify what went wrong when the intuition was attempted on VAE and Diffusion<br>
 <img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/20251018_094648.jpg" width="400" height="400">
 
 
