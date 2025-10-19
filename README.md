@@ -14,7 +14,7 @@ To keep it digestible to beginner, I spend Background section to cover something
 <img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/toy-DataDistribution_unsup-guidance.png" width="400" height="400">
 
 Note, all models in my paper are forced to work with only 1000 training samples and only allowed to use 2 blocks-MLP with SwigLU activation function as backbone. **The emphasis is see how far can loss function and optimisation algorithm and sampling algorithm and guidance together can push the model's generative performance** <br>
-<img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/unsup-guidance_what-DNN-sees.png" width="400" height="400">
+<img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/what%20model%20sees%20with%20training%20samples.png" width="400" height="400">
 
 (ii) Then make an arbitrary generative model (i.e. Stochastic Interpolant, Flow, Diffusion, VAE) approximate this toy data distribution. I also plot training loss and probabilistic evaluation like FID to showcase that they are **unreliable indicator**. Here's a thought experiment: <br>
 This is from Diffusion: <br>
