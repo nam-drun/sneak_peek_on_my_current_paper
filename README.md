@@ -1,4 +1,4 @@
-Yes, I do all these in solo research. Still, I'm grateful to get feedbacks from postdoc and phd people occasionally to keep my paper compact and concise. Here are what I intend to say:
+I hope you are here after reading the Abstract of my paper, if not please read it at [my linkedin post](https://www.linkedin.com/posts/activity-7384852062439800832-C9Zu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC2h3ncBpRfbKTT1DIVOja9SV5bC4ODmJIA) first. Anyway yes, I do all these in solo research. Still, I'm grateful to get feedbacks from postdoc and phd people occasionally to keep my paper compact and concise. Here are what I intend to say:
 
 #### Priority when designing generative model (bottom means higher priority otherwise the whole system implodes)
 <img src="https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/generative-model-design-priority.png" width="400" height="400">
