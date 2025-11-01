@@ -1,4 +1,4 @@
-#### FID evaluations
+### FID evaluations
 A hierarchical of 2 VAEs + VampPrior:
 - FID-Y (analytic true in 𝒴 vs. generated unsup): 602.899663
 - FID-Y (analytic true in 𝒴 vs. generated CFG):   0.379020
