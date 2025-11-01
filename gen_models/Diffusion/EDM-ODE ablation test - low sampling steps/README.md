@@ -1,10 +1,1 @@
-A sure way to induce underfitting. By the way, what's surprising is that even though I use 1/50 training dataset size, Diffusion is very robust. It wasn't until I literally only use 10 training sample before the model starts to underfit
-
-## Unsupervised setting
-![image](unsup_approxDataDistribution.png) 
-
-## Semisupervised setting
-![image](unsup-cfg_approxDataDistribution.png)
-
-## Training Loss for denoising matching loss function
-![image](denoisingMatchingLoss_for_2trainings.png)
+I test on reverse time ODE just to illustrate its robustness. I had done the same ablation test on reverse time SDE and it's the same result. This illustrates that Diffusion with reverse time ODE is just as robust
