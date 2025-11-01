@@ -1,5 +1,3 @@
-A sure way to induce underfitting. By the way, what's surprising is that even though I use 1/50 training dataset size, Diffusion is very robust. It wasn't until I literally only use 10 training sample before the model starts to underfit
-
 ## Unsupervised setting
 ![image](unsup_approxDataDistribution.png) 
 
