@@ -1,1 +1,1 @@
-I test on reverse time ODE just to illustrate its robustness. I had done the same ablation test on reverse time SDE and it's the same result. This illustrates that Diffusion with reverse time ODE is just as robust
+I test on reverse time ODE just to illustrate its robustness. I had done the same ablation test on reverse time SDE and it's the same result. This illustrates that Diffusion with reverse time ODE is just as robust. More importantly, it shows that if you want to really fix Diffusion, focus on its loss function, rather than the sampling
