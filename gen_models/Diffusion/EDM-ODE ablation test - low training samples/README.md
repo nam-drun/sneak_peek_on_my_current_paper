@@ -1,1 +1,10 @@
-This is the surest way to induce underfitting. Comparing the likeness between the ablation results here and VAE, you can a hint that ``low-fidelity loss function in gen modelling tends to not have much intrinsic variance to take on guidance`` 
+A sure way to induce underfitting
+
+## Unsupervised setting
+![image](https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/gen_models/Diffusion/EDM-ODE%20ablation%20test%20-%20low%20training%20samples/100%20samples/unsup_approxDataDistribution.png) 
+
+## Semisupervised setting
+![image](https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/gen_models/Diffusion/EDM-ODE%20ablation%20test%20-%20low%20training%20samples/100%20samples/unsup-cfg_approxDataDistribution.png)
+
+## Training Loss for denoising matching loss function
+![image](https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/gen_models/Diffusion/EDM-ODE%20ablation%20test%20-%20low%20training%20samples/100%20samples/denoisingMatchingLoss_for_2trainings.png)
