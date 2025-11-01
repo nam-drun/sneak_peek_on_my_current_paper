@@ -1,3 +1,5 @@
+There are A LOT of unique variants of Diffusion so here I only pick the most common one, and leave other variants to be dealt with later when I discuss about Stochastic Interpolant
+
 ## FID evaluations
 EDM-SDE (1024 sampling steps, 2047 NFE):
 - FID-Y (analytic true in 𝒴 vs. generated unsup): 0.976439
