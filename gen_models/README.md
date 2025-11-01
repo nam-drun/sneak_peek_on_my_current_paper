@@ -1,4 +1,4 @@
-My bet is that Stochastic Interpolant would be the best one for predicting joint probability, but let's see.
+My bet is that Stochastic Interpolant would be the best one for predicting joint probability, but let's see. Just for part 1, 44 experiments will be done, so far I have done 5
 
 
 ## Overall commentary
