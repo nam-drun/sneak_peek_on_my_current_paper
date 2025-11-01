@@ -1,4 +1,4 @@
-#### FID evaluations
+## FID evaluations
 EDM-SDE (1024 sampling steps, 2047 NFE):
 - FID-Y (analytic true in 𝒴 vs. generated unsup): 0.976439
 - FID-Y (analytic true in 𝒴 vs. generated CFG):   1.230182
@@ -8,7 +8,7 @@ EDM-ODE (1024 sampling steps, 2047 NFE):
 - FID-Y (analytic true in 𝒴 vs. generated CFG):   1.301372
 
 
-#### Ablation test 1: lower number of sampling steps
+## Ablation test 1: lower number of sampling steps
 EDM-ODE (100 sampling steps, 199 NFE): 
 - FID-Y (analytic true in 𝒴 vs. generated unsup): 0.962172
 - FID-Y (analytic true in 𝒴 vs. generated CFG):   1.312513
@@ -22,7 +22,7 @@ EDM-ODE (1 sampling steps, 1 NFE):
 - FID-Y (analytic true in 𝒴 vs. generated CFG):   0.652704
 
 
-#### Ablation test 2: lower number of training samples
+## Ablation test 2: lower number of training samples
 EDM-ODE, 1000 training samples:
 - FID-Y (analytic true in 𝒴 vs. generated unsup): 5.404045
 - FID-Y (analytic true in 𝒴 vs. generated CFG):   2.908479
