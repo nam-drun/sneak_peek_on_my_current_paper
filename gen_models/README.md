@@ -2,5 +2,5 @@ My bet is that Stochastic Interpolant would be the best one for predicting joint
 
 
 ## Overall objective
-Basically emulate this ground truth data distribution perfectly
+Basically emulate this ground truth data distribution perfectly [!image](https://github.com/nam-drun/sneak_peek_on_my_current_paper/blob/main/toy-DataDistribution_unsup-guidance.png)
 
