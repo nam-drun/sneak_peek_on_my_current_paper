@@ -1,4 +1,4 @@
-Essentially Elucidating Diffusion Model with reserve-time SDE, which is also related Ornstein-Ulhenbeck (OU) process
+Essentially Elucidating Diffusion Model with reserve-time SDE, which is also related Ornstein-Ulhenbeck (OU) process, where I implemented Algorithm 2 from the paper
 
 ## Unsupervised setting
 ![image](unsup_approxDataDistribution.png) 
