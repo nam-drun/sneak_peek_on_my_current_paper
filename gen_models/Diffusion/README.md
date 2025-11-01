@@ -1,4 +1,4 @@
-There are A LOT of unique variants of Diffusion so here I only pick the most common one, and leave other variants to be dealt with later when I discuss about Stochastic Interpolant
+There are A LOT of unique variants of Diffusion so here I only pick the most common one, and leave other variants to be dealt with later when I discuss about Stochastic Interpolant. The main takeaway is simple, the common myth Diffusion has to couple with OU processs (i.e. reverse time SDE) is wrong. With reverse ODE, it does just nearly just as good, not just because the FID says because the actual illustration says so! 
 
 ## FID evaluations
 EDM-SDE (1024 sampling steps, 2047 NFE):
