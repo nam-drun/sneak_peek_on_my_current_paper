@@ -1,1 +1,11 @@
 Hierarchical of 2 VAEs with Mixture of Variational Posteriors (VampPrior)
+
+## Unsupervised setting
+![image](unsup_approxDataDistribution.png) 
+
+## Semisupervised setting
+![image](unsup-cfg_approxDataDistribution.png)
+
+## Training Loss for denoising matching loss function
+![image](elboLoss_for_2trainings.png)
+
